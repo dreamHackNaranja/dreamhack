@@ -224,7 +224,7 @@ ul li, ol li {
 
 .btn-common:hover {
   color: #fff;
-  background: #F50057;
+  background: #ff6600;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -256,7 +256,9 @@ ul li, ol li {
 button:focus {
   outline: none !important;
 }
-
+a.fadeInLeft.wow.btn.btn-common.btn-lg.animated {
+  margin-top: 20px;
+}
 .icon-close, .icon-check {
   color: #ff6600;
 }
@@ -1295,7 +1297,7 @@ h3.fadeInUp.wow.animated {
 }
 
 #gallery .gallery-box:hover .overlay-box {
-  background: rgba(233, 30, 99, 0.7);
+  background: #FF6600;
   transform: scale(1, 1);
   transition: all 500ms ease;
 }
@@ -1805,7 +1807,11 @@ h3.fadeInUp.wow.animated {
 }
 
 .footer-area .footer-social li .google-plus:hover {
-  background: #d34836;
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
 .footer-area .footer-text p {
