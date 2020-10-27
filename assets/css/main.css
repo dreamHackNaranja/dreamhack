@@ -259,6 +259,9 @@ button:focus {
 a.fadeInLeft.wow.btn.btn-common.btn-lg.animated {
   margin-top: 20px;
 }
+a.fadeInLeft.wow.btn.btn-common.btn-lg.animated:hover{
+  background-color: #ff6600a9;
+}
 .icon-close, .icon-check {
   color: #ff6600;
 }
