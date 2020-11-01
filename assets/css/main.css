@@ -2060,7 +2060,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   background: #ffffff;
   text-transform: uppercase;
 }
-
+div#alert {
+  margin-top: 20px;
+}
 #pricing .price-block-wrapper .price {
   padding-bottom: 10px;
   transition: all 500ms ease;
