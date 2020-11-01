@@ -2014,7 +2014,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 /* Pricing Ticket */
 #pricing {
-  background: url(../img/background/question-mark-2492009_1920.jpg);
+  background: url(../img/image\ \(4\).png);
   background-attachment: fixed;
   overflow: hidden;
   position: relative;
@@ -2026,6 +2026,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 #pricing .section-title-header p {
   color: #fff;
+  font-weight: bold;
 }
 
 #pricing .price-block-wrapper {
